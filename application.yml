@@ -8,6 +8,8 @@ spring:
     profiles: dev
     application: 
         name: config-dev
+server:
+  port: 7200   
 
 ---
 spring: 
