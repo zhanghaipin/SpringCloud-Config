@@ -2,6 +2,7 @@ server:
   port: 8101
 
 spring:
+  profiles: dev
   application:
     name: provider-payment-service                          # 服务名称，配置集群时名字需相同
   datasource:
